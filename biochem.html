@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>B-Ear</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+
+        /* Lightbox 样式 */
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background-color: rgba(0,0,0,0.85);
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .lightbox-content {
+            max-width: 90%;
+            max-height: 90%;
+            margin: auto;
+            display: block;
+        }
+        .lightbox .close {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-size: 2em;
+            color: white;
+            background: none;
+            border: none;
+            cursor: pointer;
+            z-index: 10000;
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="Looffe Logo" />
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="series.html">Series</a></li>
+							<li><a href="logs.html">Logs</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="https://www.pinkoi.com/store/looffe" class="button primary fit">Shop</a></li>
+						</ul>
+					</nav>
+
+    <!-- 文字+左图 section -->
+    <section class="wrapper style1">
+        <div class="inner">
+            <div class="spotlight">
+                <div class="image left"><img src="images/biochem/biochem02.jpg" alt="Intro Image" /></div>
+                <div class="content">
+                    <h2>Welcome to Looffe</h2>
+                    <p>Looffe is a lab formed by toy makers who create unique plush toys. We share our passion, love, and knowledge about toy design. Each piece is crafted with care and attention to detail.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="wrapper style2">
+        <div class="inner">
+            <header class="major"><h2>Gallery</h2></header>
+            <div class="gallery-grid">
+      <div class="thumb"><img src="images/biochem/biochem01.jpg" data-large="images/biochem/biochem01.jpg" alt="bi01"></div>
+      <div class="thumb"><img src="images/biochem/biochem02.jpg" data-large="images/biochem/biochem02.jpg" alt="bi02"></div>
+	  <div class="thumb"><img src="images/biochem/biochem03.jpg" data-large="images/biochem/biochem03.jpg" alt="bi03"></div>
+	  <div class="thumb"><img src="images/biochem/biochem04.gif" data-large="images/biochem/biochem04.gif" alt="bi04"></div>
+
+      <div class="thumb"><img src="images/biochem/biochem05.jpg" data-large="images/biochem/biochem05.jpg" alt="bi05"></div>
+      <div class="thumb"><img src="images/biochem/biochem06.jpg" data-large="images/flowermarket/flowermaket07.jpg" alt="bi06"></div>
+	  <div class="thumb"><img src="images/biochem/biochem07.jpg" data-large="images/biochem/biochem07.jpg" alt="bi07"></div>
+
+	  <div class="thumb"><img src="images/biochem/biochem08.jpg" data-large="images/biochem/biochem08.jpg" alt="bi08"></div>
+	  <div class="thumb"><img src="images/biochem/biochem09.jpg" data-large="images/biochem/biochem09.jpg" alt="bi09"></div>
+      <div class="thumb"><img src="images/biochem/biochem10.jpg" data-large="images/biochem/biochem10.jpg" alt="bi10"></div>
+      <div class="thumb"><img src="images/biochem/biochem11.jpg" data-large="images/biochem/biochem11.jpg" alt="bi11"></div>
+	  <div class="thumb"><img src="images/biochem/biochem12.jpg" data-large="images/biochem/biochem12.jpg" alt="bi12"></div>
+
+	  <div class="thumb"><img src="images/biochem/biochem13.jpg" data-large="images/biochem/biochem13.jpg" alt="bi13"></div>
+	  <div class="thumb"><img src="images/biochem/biochem14.jpg" data-large="images/biochem/biochem14.jpg" alt="bi14"></div>
+      <div class="thumb"><img src="images/biochem/biochem15.jpg" data-large="images/biochem/biochem15.jpg" alt="bi15"></div>
+      <div class="thumb"><img src="images/biochem/biochem16.gif" data-large="images/biochem/biochem16.gif" alt="bi16"></div>
+	  <div class="thumb"><img src="images/biochem/biochem17.jpg" data-large="images/biochem/biochem17.jpg" alt="bi17"></div>
+      <div class="thumb"><img src="images/biochem/biochem18.jpg" data-large="images/biochem/biochem18.jpg" alt="bi18"></div>
+      <div class="thumb"><img src="images/biochem/biochem19.jpg" data-large="images/biochem/biochem19.jpg" alt="bi19"></div>
+	  <div class="thumb"><img src="images/biochem/biochem20.jpg" data-large="images/biochem/biochem20.jpg" alt="bi20"></div>
+      <div class="thumb"><img src="images/biochem/biochem21.jpg" data-large="images/biochem/biochem21.jpg" alt="bi21"></div>
+	  <div class="thumb"><img src="images/biochem/biochem22.jpg" data-large="images/biochem/biochem22.jpg" alt="bi22"></div>
+			</div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button class="close" aria-label="Close">&times;</button>
+        <img id="lightbox-img" class="lightbox-content" alt="">
+    </div>
+
+    <!-- Footer -->
+<footer id="footer">
+  <div class="inner">
+
+    <!-- Quick Links -->
+    <section class="footer-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="series.html">Series</a></li>
+        <li><a href="logs.html">Logs</a></li>
+		<li><a href="https://www.pinkoi.com/store/looffe">Shop</a></li>
+      </ul>
+	  
+    </section>
+
+    <!-- Copyright -->
+    <ul class="copyright">
+      <li>&copy; 2025 Looffe. All rights reserved.</li>
+    </ul>
+
+</div>
+
+<a href="series.html" class="back-float">
+  <i class="fas fa-arrow-left"></i>
+</a>
+
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script>
+$(document).ready(function(){
+    // 取消之前绑定，避免重复触发
+    $(".thumb img").off("click").on("click", function(){
+        var src = $(this).attr("data-large");
+        $("#lightbox-img").attr("src", src);
+        $("#lightbox").fadeIn();
+    });
+
+    $("#lightbox, .lightbox .close").off("click").on("click", function(e){
+        // 如果点击的不是图片，才关闭
+        if(e.target.id === "lightbox" || $(e.target).hasClass("close")){
+            $("#lightbox").fadeOut();
+        }
+    });
+});
+</script>
+
+</body>
+</html>
+
