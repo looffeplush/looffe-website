@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The Archive | Looffe Lab</title>
+		<link rel="icon" href="images/favicon.png" type="image/png" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Looffe</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">HOME</a></li>
+							<li class="active"><a href="archives.html">ARCHIVES</a></li>
+							<li><a href="commissions.html">COMMISSIONS</a></li>
+							<li><a href="https://www.pinkoi.com/store/looffe"target="_blank">SHOP</a></li>
+							<li><a href="about.html">ABOUT</a></li>
+						</ul>
+						<ul class="icons">
+						    	<li><a href="https://www.instagram.com/looffeplush" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						    	<li><a href="https://www.youtube.com/@looffeplush" class="icon brands fa-youtube" target="_blank"><span class="label">YouTube</span></a></li>
+						</ul>
+					</nav>
+
+<!-- Main -->
+	<div id="main">
+		<section class="post">
+
+			<header class="major">
+				<h1>Replicating<br />a Childhood Memory</h1>
+			</header>
+
+			<!-- 顶部主图 -->
+			<div class="image main"><img src="images/archives/replica/replica00.jpg" alt="Making Tiny Clothes Work" /></div>
+
+			<!-- Introduction -->
+			<p>A client came to us with a very special request: to replicate their beloved childhood teddy bear. But there was a unique twist—they didn't want the replica to look brand new. They wanted it to look exactly as it does today: deeply loved, worn, and uniquely shaped by years of hugs.</p>
+
+			<!-- Challenge 1 -->
+			<h3 style="border-bottom: none; padding-bottom: 0;">Challenge 1: Recreating the "Loved" Shape</h3>
+			<p>Usually, when drafting a plush pattern, symmetry is the goal. However, decades of love had given the original bear a very specific, slightly slouched posture and a noticeably flattened head. We had to draft the new pattern from scratch to intentionally recreate these asymmetrical, endearing quirks so the new bear would feel instantly familiar.</p>
+
+			<!-- Challenge 2 -->
+			<h3 style="border-bottom: none; padding-bottom: 0;">Challenge 2: The Vintage Fur Texture</h3>
+			<p>Finding the exact vintage fabric from decades ago is nearly impossible. To achieve the matted, "worn-in" texture of the original, we selected a specific high-quality long-pile faux fur. After sewing the bear, we gave it a meticulous, manual "haircut"—trimming the fur down carefully to mimic the exact aged look of the original toy.</p>
+
+            <p>Seeing the two bears side-by-side—the cherished veteran and the fresh replica—was incredibly rewarding. It’s projects like this that remind us why we love doing what we do.</p>
+
+			<hr />
+
+			<!-- The Gallery -->
+			<h2 style="border-bottom: none; padding-bottom: 0;">The Outfit Gallery</h2>
+			
+			<div class="mood-board-gallery">
+				<span class="gallery-item"><img src="images/archives/replica/replica01.jpg" alt="" onclick="openLightbox(this.src)" /></span>
+				<span class="gallery-item"><img src="images/archives/replica/replica02.jpg" alt="" onclick="openLightbox(this.src)" /></span>
+				<span class="gallery-item"><img src="images/archives/replica/replica03.jpg" alt="" onclick="openLightbox(this.src)" /></span>
+				<span class="gallery-item"><img src="images/archives/replica/replica04.jpg" alt="" onclick="openLightbox(this.src)" /></span>
+				<span class="gallery-item"><img src="images/archives/replica/replica06.jpg" alt="" onclick="openLightbox(this.src)" /></span>
+				<span class="gallery-item"><img src="images/archives/replica/replica07.jpg" alt="" onclick="openLightbox(this.src)" /></span>
+				<span class="gallery-item"><img src="images/archives/replica/replica08.jpg" alt="" onclick="openLightbox(this.src)" /></span>
+				<span class="gallery-item"><img src="images/archives/replica/replica09.jpg" alt="" onclick="openLightbox(this.src)" /></span>
+			</div>
+
+			<br />
+
+           <!-- YouTube 视频区域 -->
+			<h2 style="border-bottom: none; padding-bottom: 0; text-align: left;">Behind the Seams</h2>
+			
+			<div class="video-container">
+
+				<iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<!-- 极简风格的视频字幕 -->
+			<p style="text-align: center; font-size: 0.9rem; color: #888; font-style: italic; margin-top: 1rem;">
+				Watch the process of how we bring plushies to life in our studio.
+			</p>
+
+			<!-- 返回 Archive 页面的按钮 -->
+			<ul class="actions">
+				<li><a href="archives.html" class="button">Back to Archive</a></li>
+			</ul>
+
+		</section>
+
+	</div>
+
+<!-- ========================================== -->
+<!-- 🎨 魔法区域：画廊样式与灯箱效果代码 -->
+<!-- ========================================== -->
+<style>
+		/* --- 新增：情绪板高密度网格 --- */
+	.mood-board-gallery {
+		display: grid;
+		/* repeat(6, 1fr) 意思是一排 6 张。如果你想要一排 8 张，就把 6 改成 8 */
+		grid-template-columns: repeat(6, 1fr); 
+		gap: 10px; /* 图片之间的缝隙，10px 很精致 */
+		margin-bottom: 3rem;
+	}
+
+	/* 手机端智能适配：屏幕变小时，自动变成一排 3 张，防止图片小到看不清 */
+	@media screen and (max-width: 736px) {
+		.mood-board-gallery {
+			grid-template-columns: repeat(3, 1fr); 
+			gap: 5px;
+		}
+	}
+	/* 1. 画廊图片外框：强制锁死为完美的 1:1 正方形 */
+	.gallery-item {
+		overflow: hidden; 
+		cursor: zoom-in; 
+		display: block;
+		border-radius: 4px;
+		aspect-ratio: 1 / 1; /* 强制所有缩略图都是正方形，形成完美网格 */
+		width: 100%;
+	}
+
+	/* 2. 缩略图本身：智能填满与居中裁切 */
+	.gallery-item img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* 核心魔法：像相框一样把图片塞满，多余的边缘被隐藏 */
+		object-position: center; /* 保证视觉焦点永远在图片正中心 */
+		transition: transform 0.4s ease; 
+	}
+
+	/* 3. 悬停时的局部放大感 */
+	.gallery-item:hover img {
+		transform: scale(1.08); /* 稍微增加放大比例，让互动感更强 */
+	}
+
+	/* 4. 暗色背景灯箱弹窗样式 (保持全图比例) */
+	#lightbox {
+		display: none;
+		position: fixed;
+		z-index: 99999; 
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background: rgba(0, 0, 0, 0.92); /* 稍微加深一点背景，凸显大图 */
+		justify-content: center;
+		align-items: center;
+		cursor: zoom-out; 
+	}
+	
+	/* 灯箱里的图片：解放束缚，展示原始比例 */
+	#lightbox img {
+		max-width: 90vw;
+		max-height: 90vh;
+		width: auto;
+		height: auto;
+		object-fit: contain; /* 核心魔法：保证全图完整显示，绝不裁切 */
+		box-shadow: 0 10px 40px rgba(0,0,0,0.8); 
+		border-radius: 4px;
+		animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1); /* 更具呼吸感的弹出动画 */
+	}
+
+	@keyframes fadeIn {
+		from { opacity: 0; transform: scale(0.95); }
+		to { opacity: 1; transform: scale(1); }
+	}
+</style>
+
+<!-- 暗色背景与图片容器 (默认隐藏) -->
+<div id="lightbox" onclick="closeLightbox()">
+	<img id="lightbox-img" src="" alt="Enlarged view" />
+</div>
+
+<!-- 3. 灯箱交互逻辑 (Vanilla JS) -->
+<script>
+	function openLightbox(src) {
+		document.getElementById('lightbox-img').src = src; // 把点击的图片地址塞给大图
+		document.getElementById('lightbox').style.display = 'flex'; // 显示灯箱
+	}
+	function closeLightbox() {
+		document.getElementById('lightbox').style.display = 'none'; // 隐藏灯箱
+	}
+</script>
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="https://formspree.io/f/xwpnwybl">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>LOCATION</h3>
+								<p>Based in a cozy studio in Guangzhou, China.<br />
+								Shipping Worldwide</p>
+							</section>
+							<section>
+								<h3>STATUS</h3>
+								<p>Custom Commissions: OPEN. <br />
+								Apply via the form.</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p>looffeplush@gmail.com</p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+           							<li><a href="https://www.instagram.com/looffeplush" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						        	<li><a href="https://www.youtube.com/@looffeplush" class="icon brands fa-youtube" target="_blank"><span class="label">YouTube</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; LOOFFE LAB. All rights reserved.</li><li>Made with ❤️ by Yun & Jinyi</li>
+							<li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

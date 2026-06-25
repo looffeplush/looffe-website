@@ -1,176 +1,223 @@
 <!DOCTYPE HTML>
 <!--
-	Forty by HTML5 UP
+	Massively by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Looffe</title>
+		<title>Looffe Lab | Custom Plushies & Miniature Wardrobe</title>
+		<link rel="icon" href="images/favicon.png" type="image/png" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!-- 👇 专属 CSS 魔法：首屏标志红按钮 👇 -->
+	<style>
+		/* 1. 正常状态下的按钮 */
+		#intro .actions .button {
+			background-color: #d3382a !important; /* 标志性红色底色 */
+			color: #ffffff !important;            /* 纯白文字 */
+			border-color: #d3382a !important;     /* 边框也变成红色 */
+			box-shadow: 0 4px 15px rgba(211, 56, 42, 0.4); /* 追加一层淡淡的红色高级光晕 */
+			transition: all 0.3s ease;            /* 丝滑的动画过渡 */
+		}
+		
+		/* 2. 鼠标悬停 (Hover) 时的状态 */
+		#intro .actions .button:hover {
+			background-color: #b02e22 !important; /* 鼠标放上去，红色变暗变深 */
+			border-color: #b02e22 !important;
+			box-shadow: 0 6px 20px rgba(211, 56, 42, 0.6); /* 光晕扩散，增加互动感 */
+			transform: translateY(-2px);          /* 按钮会有轻微的“浮起”感 */
+		}
+	</style>
+
+
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+	               <div id="intro">
+	             	<h1>LOOFFE LAB</h1>
+	            	<p>As comforting as a fresh loaf. As precise as micro-engineering.<br />
+		               Handcrafted custom plushies & functional miniature wardrobes.</p>
+		    <ul class="actions">
+			<!-- commission的大按钮，button -->
+		    	<li><a href="commissions.html" class="button primary large">Request a Custom</a></li>
+		    </ul>
+	                </div>
 
 				<!-- Header -->
-                 <header id="header">
-                   <a href="index.html" class="logo"><img src="images/logo.png" alt="Looffe Logo" />
-                   <nav>
-                   <a href="#menu">Menu</a>
-                   </nav>
-                   </header>
+					<header id="header">
+						<a href="index.html" class="logo">Looffe</a>
+					</header>
 
-				<!-- Menu -->
-					<nav id="menu">
+				<!-- Nav -->
+					<nav id="nav">
 						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="series.html">Series</a></li>
-							<li><a href="logs.html">Logs</a></li>
+							<li class="active"><a href="index.html">HOME</a></li>
+							<li><a href="archives.html">ARCHIVES</a></li>
+							<li><a href="commissions.html">COMMISSIONS</a></li>
+							<li><a href="https://www.pinkoi.com/store/looffe"target="_blank">SHOP</a></li>
+							<li><a href="about.html">ABOUT</a></li>
 						</ul>
-						<ul class="actions stacked">
-							<li><a href="https://www.pinkoi.com/store/looffe" class="button primary fit">Shop</a></li>
+						<ul class="icons">
+							<li><a href="https://www.instagram.com/looffeplush" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.youtube.com/@looffeplush" class="icon brands fa-youtube" target="_blank"><span class="label">YouTube</span></a></li>
 						</ul>
 					</nav>
-
-				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
-									<span class="image">
-										<img src="images/banner.jpg" alt="" />
-									</span>
-								<h1>Looffe</h1>
-							</header>
-							<div class="content">
-								<p>A playful lab where imagination leads the way.<br />
-									</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">Join the Fun</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
 
 				<!-- Main -->
 					<div id="main">
 
-						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/biochem/biochem03.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="about.html" class="link">About</a></h3>
-										<p>Stories and members</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/bear/bear08.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="series.html" class="link">Series</a></h3>
-										<p>Explore our works</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/others/others17.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="logs.html" class="link">Logs</a></h3>
-										<p>What's new about Looffe</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/others/others06.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="https://www.youtube.com/@looffeplush" class="link">Video</a></h3>
-										<p>Follow Looffe's Youtube chanel</p>
-									</header>
-								</article>
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">What We Do</span>
+									<h2><a href="commissions.html">Custom Plushies</a></h2>
+									<p>Turning your original characters (OCs) and personal ideas into physical plushies. Simple hand-embroidered faces and huggable shapes.</p>
+								</header>
+								<ul class="actions special">
+									<li><a href="commissions.html" class="button large">Commission Info</a></li>
+								</ul>
+							</article>
 
-							</section>
-
-						<!-- Two -->
-							<section id="two">
-								<div class="inner">
-									<header class="major">
-										<h2>Shop</h2>
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="#">Miniature Clothing</a></h2>
 									</header>
-									<p>Bring your very own Looffe Fluffies home today and let the fun, cuddly adventures begin!</p>
-									<ul class="actions">
-										<li><a href="https://www.pinkoi.com/store/looffe" class="button next">Shop Now</a></li>
+									<a href="#" class="image fit"><img src="images/index/tiny-wardrobe.jpg" alt="" /></a>
+									<p>Tiny clothes that actually work. We focus on true-to-scale tailoring, real zippers, and proper linings, all shrunk down to fit your plushies.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
-								</div>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Originals & Merch</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/index/shop.jpg" alt="" /></a>
+									<p>Meet the "Doughlings"—my original friend-shaped plushies—along with other quirky, science-inspired soft toys and pouches.</p>
+									<ul class="actions special">
+										<li><a href="https://www.pinkoi.com/store/looffe" class="button">Shop Now</a></li>
+									</ul>
+								</article>
+							
+
+
 							</section>
+
+<!--  3. Archive Teaser (Full Width Featured Block) -->
+		<article class="post featured" style="border-top: solid 2px #eeeeee; margin-top: 2rem;">
+			<header class="major">
+				<span class="date">EXPLORE THE PROCESS</span>
+				<h2><a href="archives.html">Behind the Seams</a></h2>
+				<p>Take a look at my past work. From recreating childhood toys to tailoring tiny jackets, see how these plushies are made from scratch.</p>
+			</header>
+			<!-- 建议这里放一张极具视觉冲击力的工作室细节图或微缩拉链特写 -->
+			<a href="archives.html" class="image main"><img src="images/index/behind.jpg" alt="Behind the Seams" /></a>
+			<ul class="actions special">
+				<li><a href="archives.html" class="button large">Browse the Archive</a></li>
+			</ul>
+		</article>
+
+		<!--  4. The Looffe Idea & Final CTA (Centered Blockquote Style) -->
+		<section style="text-align: center; padding: 6rem 2rem 4rem 2rem; border-top: solid 2px #eeeeee;">
+			<header class="major">
+				<h2>The Looffe Idea</h2>
+			</header>
+			<p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto 3rem auto; font-style: italic; line-height: 1.8;">
+				"Looffe" comes from the word loaf. I believe a stuffed toy should feel as soft and comforting as a freshly baked loaf of bread. Every piece is handmade in my studio with patience and care.
+			</p>
+			<ul class="actions special">
+				<li><a href="commissions.html" class="button primary large">Start Your Custom Project</a></li>
+			</ul>
+		</section>
+
+						<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
 
 					</div>
 
-				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="https://formspree.io/f/xwpnwybl">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="https://formspree.io/f/xwpnwybl">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
 									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+
+						<section class="split contact">
+							<section class="alt">
+								<h3>LOCATION</h3>
+								<p>Based in a cozy studio in Guangzhou, China.<br />
+								Shipping Worldwide</p>
 							</section>
-
+							<section>
+								<h3>STATUS</h3>
+								<p>Custom Commissions: OPEN. <br />
+								Apply via the form.</p>
 							</section>
-						</div>
-					</section>
+							<section>
+								<h3>Email</h3>
+								<p>looffeplush@gmail.com</p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+           							<li><a href="https://www.instagram.com/looffeplush" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						        	<li><a href="https://www.youtube.com/@looffeplush" class="icon brands fa-youtube" target="_blank"><span class="label">YouTube</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
 
-    <!-- Footer -->
-<footer id="footer">
-  <div class="inner">
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; LOOFFE LAB. All rights reserved.</li><li>Made with ❤️ by Yun & Jinyi</li>
+							<li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
 
-    <!-- Quick Links -->
-    <section class="footer-menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="series.html">Series</a></li>
-        <li><a href="logs.html">Logs</a></li>
-		<li><a href="https://www.pinkoi.com/store/looffe">Shop</a></li>
-      </ul>
-	  
-    </section>
-
-    <!-- Copyright -->
-    <ul class="copyright">
-      <li>&copy; 2025 Looffe. All rights reserved.</li>
-    </ul>
+			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
